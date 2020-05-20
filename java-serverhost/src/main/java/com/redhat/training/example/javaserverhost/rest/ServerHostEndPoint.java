@@ -16,10 +16,10 @@ public class ServerHostEndPoint {
     try {
       host = InetAddress.getLocalHost().getHostName();
     }
-    catch (Exception e) {
+    catch (Exception e) {s
        e.printStackTrace();
     }
-    String msg = "I am running on server "+host+" Version 1.0 \n";
+    String msg = "I am running on server "+host+" Version 2s.0 \n";
     return Response.ok(msg).build();
   }
 }
